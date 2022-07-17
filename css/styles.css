@@ -1,13 +1,22 @@
 
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,75,121,1) 25%, rgba(0,212,255,1) 100%);
+}
+
 h1{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 50px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 6rem;
+    color: white;
 }
 
 h2{
     text-align: center;
     padding-bottom: 15px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .diceimg_l{
@@ -26,25 +35,29 @@ h2{
     width: 40%;
   }
   
-
 .rollbutton{
     display: block;
     margin: auto;
-    height: 60px;
-    width: 80px;
+    height: 85px;
+    width: 150px;
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 0;
     margin-bottom: 15px;
     margin-top: 10px;
     padding: 10px;
+    font-family: 'Manrope', sans-serif;
+    background-color: #062f5a;
+    border-width: 1px;
+    border-color: white;
 }
 
 .footertext{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: x-small;
+    font-size: small;
+    font-family: 'Manrope', sans-serif;
 }
 
 

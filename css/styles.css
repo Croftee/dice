@@ -10,20 +10,28 @@ h2{
     padding-bottom: 15px;
 }
 
-.diceimg{
+.diceimg_l{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin:auto;
   padding-bottom: 50px;
   height: 40%;
   width: 40%;
 }
 
+.diceimg_r{
+    display: block;
+    margin:auto;
+    padding-bottom: 50px;
+    height: 40%;
+    width: 40%;
+  }
+  
+
 .rollbutton{
     display: block;
     margin: auto;
-    height: 15%;
-    width: 25%;
+    height: 60px;
+    width: 80px;
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 0;

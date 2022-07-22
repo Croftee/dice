@@ -10,24 +10,16 @@ var dice2 = new Array("img/Die_face_1b.svg","img/Die_face_2b.svg","img/Die_face_
 
     async function roll() {
         
-
-     
         var randomNum = Math.floor(Math.random() * dice1.length);
         document.getElementById("dice1").src = dice1[randomNum];
         await delay(600);
 
-        var randomNum = Math.floor(Math.random() * dice2.length);
+         var randomNum = Math.floor(Math.random() * dice2.length);
         document.getElementById("dice2").src = dice2[randomNum];
     
         var randomNum = Math.floor(Math.random() * dice1.length);
         document.getElementById("dice1").src = dice1[randomNum];
         await delay(600);
-
-        
-        var randomNum = Math.floor(Math.random() * dice2.length);
-        document.getElementById("dice2").src = dice2[randomNum];
-        await delay(600);
-
 
         var randomNum = Math.floor(Math.random() * dice1.length);
         document.getElementById("dice1").src = dice1[randomNum];
@@ -37,8 +29,9 @@ var dice2 = new Array("img/Die_face_1b.svg","img/Die_face_2b.svg","img/Die_face_
         document.getElementById("dice2").src = dice2[randomNum];
         await delay(600);
     
-       
-
+        var randomNum = Math.floor(Math.random() * dice2.length);
+        document.getElementById("dice2").src = dice2[randomNum];
+        await delay(600);
 
     }
 

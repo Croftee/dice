@@ -21,6 +21,8 @@ h2{
     text-align: center;
     padding-bottom: 15px;
     font-family: 'Manrope', sans-serif;
+    color: aliceblue;
+    
 }
 
 .diceimg_l{
@@ -64,4 +66,8 @@ h2{
     font-family: 'Manrope', sans-serif;
 }
 
+.modal {
 
+    text-align: center;
+    font-size: 2rem;
+}

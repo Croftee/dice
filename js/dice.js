@@ -16,6 +16,9 @@ var dice1 = new Array("img/Die_face_1b.svg","img/Die_face_2b.svg","img/Die_face_
 var dice2 = new Array("img/Die_face_1b.svg","img/Die_face_2b.svg","img/Die_face_3b.svg","img/Die_face_4b.svg","img/Die_face_5b.svg","img/Die_face_6b.svg");
 
     async function roll() {
+
+        const button = document.getElementById("rollbutton")
+        button.setAttribute("disabled","")
         
         var randomNum1 = Math.floor(Math.random() * dice1.length);
         document.getElementById("dice1").src = dice1[randomNum1];
@@ -41,6 +44,8 @@ var dice2 = new Array("img/Die_face_1b.svg","img/Die_face_2b.svg","img/Die_face_
 
         score1 = randomNum1 + 1;
         score2 = randomNum2 + 1;
+
+        button.removeAttribute("disabled")
 
         checkscore()
 

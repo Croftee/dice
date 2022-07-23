@@ -1,5 +1,3 @@
-
-
 var ScoreModal = new bootstrap.Modal(document.getElementById("Score"));
 var DrawModal = new bootstrap.Modal(document.getElementById("Draw"));
 var score1

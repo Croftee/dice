@@ -57,6 +57,7 @@ function checkscore()
         {
         playernum = 1
         document.getElementById("playernum").innerHTML = playernum;
+        document.getElementById("diceval").innerHTML = score1;
         ScoreModal.show();
         return true;
         }
@@ -64,6 +65,7 @@ function checkscore()
         {
         playernum = 2
         document.getElementById("playernum").innerHTML = playernum;
+        document.getElementById("diceval").innerHTML = score2;
         ScoreModal.show();
         return true;
         }

@@ -1,3 +1,3 @@
 # They See Me Rolling
 
-https://croftee.github.io/dice/
+https://admin-tc.github.io/dice/
